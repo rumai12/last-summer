@@ -18,7 +18,7 @@ export function CheckoutModal({ isOpen, onClose, cartItems, totalPrice }: Checko
 
   const handleWhatsAppCheckout = () => {
     const message = generateWhatsAppMessage();
-    const phoneNumber = '6281234567890'; // Replace with actual WhatsApp number
+    const phoneNumber = '62895383002709'; // Replace with actual WhatsApp number
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
     onClose();
