@@ -118,14 +118,6 @@ export function Home({ onNavigateToCart }: HomeProps) {
           className="absolute right-10 top-1/2 -translate-y-1/2 w-[560px] opacity-[100] mix-blend-multiply pointer-events-none select-none hidden md:block"
         />
 
-        {/* Watermark Logo (mobile – aman, tidak nabrak) */}
-        <img
-          src="/logo-last-summer.png"
-          alt=""
-          className="md:hidden absolute left-1/2 top-12 -translate-x-1/2 w-[180px] opacity-[0.05] pointer-events-none select-none"
-        />
-
-
         {/* Content */}
         <div className="max-w-[1440px] mx-auto relative z-10">
           <div className="flex flex-col items-center text-center md:items-start md:text-left md:max-w-xl md:ml-51 " >
