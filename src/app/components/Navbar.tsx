@@ -20,7 +20,7 @@ export function Navbar({ onCartClick }: NavbarProps) {
             <img
               src="/logo-last-summer.png"
               alt="Last Summer"
-              className="h-8 block md:hidden"
+              className="h-11 block md:hidden"
             />
 
             {/* DESKTOP */}
